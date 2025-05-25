@@ -1,0 +1,90 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.navbar-links {
+    display: flex;
+    align-items: center;
+  
+    .nav-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      margin-right: 20px;
+      color: #028391;
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
+  
+  .home-container {
+    .electionCardCnadidatesButton{
+        color: #028391;
+        font-weight: bold;
+    }
+  }
+  
+  .home-content {
+    padding: 20px;
+    .home-content-welcome{
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+        .home-content-welcome-title{
+            color: #01204E;
+            font-size: 45px;
+            font-weight: bold;
+        }
+        .home-content-welcome-des{
+            color: #028391;
+        }
+  }
+  
+  .welcome-message {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .info-message {
+    color: #555;
+  }
+  
+  .elections-title {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .elections-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .election-item {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+
+  .css-1juivf6-MuiTypography-root{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    background-color: #01204E!important;
+  }
+  
+  @media(max-width: 700px){
+    .applyFiltersButton{
+      font-size: .7rem!important;
+    }
+  }

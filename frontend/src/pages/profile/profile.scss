@@ -1,0 +1,106 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #01204E !important;
+}
+
+.profileContainer .navbarLogo {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 900px) {
+  .profileContainer .navbarLogo {
+      width: 45px;
+      height: 45px;
+  }
+}
+
+.profileContainer{
+    padding: 0;
+    margin: 0;
+}
+
+.profileContainer .navbar-button {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profileContainer .navbar-button:hover {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profileContainer {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .appBar {
+    background-color: #3f51b5;
+  }
+  
+  .profileContent {
+    padding: 2rem 0;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  
+  .profileInfo {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .profileAvatar {
+    width: 100px!important;
+    height: 100px!important;
+    margin: 0 auto 1rem!important;
+    background-color: #3f51b5!important;
+    font-size: 2.5rem!important;
+  }
+  
+  .profileTitle {
+    margin-bottom: 1rem!important;
+    color: #3f51b5!important;
+  }
+  
+  .profileDetails {
+    margin-top: 1rem;
+  }
+  
+  .profileText {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .verifiedText {
+    display: flex;
+    align-items: center;
+    color: green;
+  }
+
+  .verifiedIcon {
+    color: green;
+    margin-left: 0.5rem;
+  }
+  
+
+  

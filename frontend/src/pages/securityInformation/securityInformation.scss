@@ -1,0 +1,52 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #01204E !important;
+}
+
+.securityInformationContainer .navbarLogo {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 900px) {
+    .securityInformationContainer .navbarLogo {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.securityInformationContainer{
+    padding: 0;
+    margin: 0;
+    .electionResultContent {
+        padding: 2rem 0;
+    }    
+}
+
+.securityInformationContainer .navbar-button {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.securityInformationContainer .navbar-button:hover {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.securityCard {
+    height: 150px;
+    transition: transform 0.2s;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+  

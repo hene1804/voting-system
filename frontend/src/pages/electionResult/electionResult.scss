@@ -1,0 +1,61 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #01204E !important;
+}
+
+.electionResultContainer .navbarLogo {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 900px) {
+    .electionResultContainer .navbarLogo {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.electionResultContainer{
+    padding: 0;
+    margin: 0;
+    .electionResultContent {
+        padding: 2rem 0;
+    }    
+}
+
+.electionResultContainer .navbar-button {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.electionResultContainer .navbar-button:hover {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+#resultPdfButton{
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+    .electionResultContent  {
+        padding-left: 24px!important;
+        padding-right: 24px!important;
+    }
+}
+

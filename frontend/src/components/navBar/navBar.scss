@@ -1,0 +1,38 @@
+.home-container {
+    .navbarLogo{
+        width: 50px;
+        height: 50px;
+    }
+    .navbar-button{
+        border-radius: 5px;
+        padding: 9px 22px;
+        background: #028391;
+        border: none;
+        color: #01204E;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .navbar-button:hover{
+        border-radius: 5px;
+        padding: 9px 22px;
+        background: #028391;
+        border: none;
+        color: #01204E;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+
+
+@media(max-width: 900px){
+    .navbar-links{
+        display: none;
+    }
+    .home-container {
+        .navbarLogo{
+            width: 45px;
+            height: 45px;
+        }
+      }
+  }

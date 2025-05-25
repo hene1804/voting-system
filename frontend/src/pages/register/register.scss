@@ -1,0 +1,120 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 97vh;
+  }
+  
+  .register-form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    height: 530px;
+    h2{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 500;
+    }
+    .register-form-button{
+      background-color: #022a6e;
+    }
+  }
+
+  .register-form-info{
+      display: none;
+  }
+
+  .login-link, .all-rights-reserved {
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    span{
+      color: #022a6e;
+      font-weight: 900;
+    }
+  }
+  
+  .large-input {
+    height: 50px; // Increase the height for larger inputs
+    font-size: 16px; // Increase font size for better readability
+  }
+  
+  .register-form-button {
+    width: 100%;
+  }
+
+  :where(.css-dev-only-do-not-override-j9bb5n).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #fff;
+    background: #0642a8;
+  }
+
+  @media(min-width: 700px){
+    .register-form-content {
+      width: 500px;
+      height: 530px;
+    }
+  }
+
+  @media(min-width: 1200px){
+    .register-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 97vh;
+    }
+    .register-form-content {
+      width: 470px;
+      height: 550px;
+      border-radius: 8px 0 0 8px;
+      h2{
+        font-size: 2rem;
+      }
+      .ant-form-item{
+        width: 300px;
+      }
+    }
+    .register-form-info{
+      display: block;
+      width: 450px;
+      height: 550px;
+      background: #01204E;
+      border-radius: 0 8px 8px 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      .register-form-info-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        h2{
+          color: #fff;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-weight: 900;
+          font-size: 3rem;
+        }
+        h4{
+          color: #fff;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-weight: 500;
+          font-size: 1.2rem;
+          padding: 20px;
+          text-align: center;
+        }
+        .register-form-info-content-icon{
+          color: #fff;
+          font-size: 5rem;
+          margin-top: 5%;
+          margin-bottom: 5%;
+        }
+      }
+    }
+    
+  }
+  

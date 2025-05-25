@@ -1,0 +1,78 @@
+.verify-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 97vh;
+  }
+  
+  .verify-form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    height: 580px;
+    h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+    }
+    .verify-form-button{
+      background-color: #022a6e;
+    }
+    .info-container{
+      margin-bottom: 10%;
+    }
+  }
+
+
+  .large-input {
+    height: 50px; // Increase the height for larger inputs
+    font-size: 16px; // Increase font size for better readability
+  }
+  
+  .verify-form-button {
+    width: 100%;
+  }
+
+  .all-rights-reserved {
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    span{
+      color: #022a6e;
+      font-weight: 900;
+    }
+  }
+
+  :where(.css-dev-only-do-not-override-j9bb5n).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #fff;
+    background: #0642a8;
+  }
+
+  @media(min-width: 700px){
+    .verify-form-content {
+      width: 500px;
+      height: 570px;
+    }
+  }
+
+  @media(min-width: 1200px){
+    .verify-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 97vh;
+    }
+    .verify-form-content {
+      width: 600px;
+      height: 580px;
+      h2{
+        font-size: 2rem;
+      }
+    }
+  }

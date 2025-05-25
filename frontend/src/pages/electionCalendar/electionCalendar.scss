@@ -1,0 +1,55 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #01204E !important;
+}
+
+.electionCalendarContainer .navbarLogo {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 900px) {
+    .electionCalendarContainer .navbarLogo {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.electionCalendarContainer{
+    padding: 0;
+    margin: 0;
+    .electionResultContent {
+        padding: 2rem 0;
+    }    
+}
+
+.electionCalendarContainer .navbar-button {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.electionCalendarContainer .navbar-button:hover {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Custom styles to remove selected date highlighting */
+.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-cell-inner {
+  background-color: transparent !important;
+  border: none !important;
+  color: #000;
+  cursor: default;
+}
+:where(.css-dev-only-do-not-override-3rel02).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date .ant-picker-calendar-date-value, :where(.css-dev-only-do-not-override-3rel02).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected:hover .ant-picker-calendar-date .ant-picker-calendar-date-value, :where(.css-dev-only-do-not-override-3rel02).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date-today .ant-picker-calendar-date-value, :where(.css-dev-only-do-not-override-3rel02).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected:hover .ant-picker-calendar-date-today .ant-picker-calendar-date-value {
+    color: #000;
+}

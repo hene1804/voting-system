@@ -1,0 +1,89 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #01204E !important;
+}
+
+.electionDetailsContainer .navbarLogo {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 900px) {
+  .electionDetailsContainer .navbarLogo {
+      width: 45px;
+      height: 45px;
+  }
+}
+
+.electionDetailsContainer{
+    padding: 0;
+    margin: 0;
+}
+
+.electionDetailsContainer .navbar-button {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.electionDetailsContainer .navbar-button:hover {
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.electionDetailsContainer {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.electionDetailsContent {
+  padding: 2rem 0;
+}
+
+.electionInfo {
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.candidateCard {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  .voteButton{
+    border-radius: 5px;
+    padding: 5px 18px;
+    background: #028391;
+    border: none;
+    color: #01204E;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+}
+
+.candidateContent {
+  display: flex;
+  align-items: center;
+}
+
+.candidateCard .MuiCardContent-root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.candidateCard .MuiTypography-h6 {
+  margin-bottom: 0.5rem;
+}
