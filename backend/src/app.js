@@ -15,7 +15,7 @@ app.use(cors({
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://brianmwenda255:41q8HYCSVjzeiDOG@cluster0.4tg7pi2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://brianmwenda255:41q8HYCSVjzeiDOG@cluster0.4tg7pi2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tlsInsecure=true')
   .then(() => {
     console.log('Connected to MongoDB');
   })
